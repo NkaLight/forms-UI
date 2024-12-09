@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import React from 'react'
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom"
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -13,15 +14,15 @@ import PageNotFound from "./Pages/404Page"
  */
 const Router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/">
-      <Route index element={<Home />} />
-      <Route path='/Forms' element={<FormsPage />}/>
-
+    <>
+      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/forms" element={<FormsPage />} />
       <Route path="*" element={<PageNotFound />} />
-    </Route>
+
+    </>
   )
 )
-
 
 function App() {
   return (

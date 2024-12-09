@@ -2,11 +2,79 @@ import React from "react";
 
  const FormsPage = (() =>{
     return(
-        <div>
-            <header>
+        <>
+            <header className="form-header">
                 <h1>Forms</h1>
             </header>
-        </div>
+            <main className="form-main-content">
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+                <div>
+                    <p>Forms here</p>
+                </div>
+            </main>
+        </>
     )
 })
 

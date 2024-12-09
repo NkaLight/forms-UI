@@ -1,0 +1,21 @@
+.form-header{
+    display: flex;
+    justify-content: center;
+}
+.form-main-content{
+  display: flex; /* Arrange cards in a row */
+  border-radius: 2%;
+  margin:0 auto; /*Align content to the center*/
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden;
+  gap: 30px; /* Optional: Space between cards */
+  padding: 25px; /* Optional: Inner padding for the container */
+  white-space: nowrap;
+  width: 55%;
+  height: 400px;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.form-main-content::-webkit-scrollbar { /**Ensuring the scrollbar is hidden*/
+    display: none;  /* Safari and Chrome */
+}
