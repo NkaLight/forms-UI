@@ -19,3 +19,18 @@
 .form-main-content::-webkit-scrollbar { /**Ensuring the scrollbar is hidden*/
     display: none;  /* Safari and Chrome */
 }
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    border-radius:5px ;
+    padding: 20px;
+    text-decoration:none;
+}
+.form-link{
+    text-decoration: none;
+}
+.form-container{
+    text-decoration: none;
+    color:black;
+}
